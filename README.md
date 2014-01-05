@@ -31,7 +31,7 @@ At this point, all things should be good in the world:
 
     $ rails server
 
-PostgreSQL
+Databases
 ---
 
 Let's make some databases.
