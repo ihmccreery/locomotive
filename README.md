@@ -100,13 +100,3 @@ Templating
 ---
 
 Haml, of course: `gem 'haml-rails'`.  No other setup required.  [Hurrah](http://github.com/indirect/haml-rails).  You can use [Html2Haml](http://html2haml.heroku.com) to convert any old files, (I'm looking at you, `layouts/application.html.erb`!).
-
-Binstubs, environment variables, and Foreman
----
-
-We're working on it!
-
-Devise
----
-
-We're working on it!
