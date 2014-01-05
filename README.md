@@ -69,6 +69,6 @@ Make some databases:
 
 Run the initial migration to create a schema:
 
-    $ rake db:migrater
+    $ rake db:migrate
 
 That's it for now!
