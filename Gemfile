@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 # Use PostgreSQL as the database for Active Record
 gem 'pg'
 
+# Use Haml for templating
+gem 'haml-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

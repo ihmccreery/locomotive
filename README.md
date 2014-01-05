@@ -95,3 +95,8 @@ And follow these guides:
 - `machinist`: <http://github.com/notahat/machinist#installation>
   - I recommend using `fixture_replacement`
 - `capybara`: <http://github.com/jnicklas/capybara#setup>
+
+Templating
+---
+
+Haml, of course: `gem 'haml-rails'`.  No other setup required.  [Hurrah](http://github.com/indirect/haml-rails).  You can use [Html2Haml](http://html2haml.heroku.com) to convert any old files, (I'm looking at you, `layouts/application.html.erb`!).
