@@ -1,6 +1,8 @@
 Locomotive
 ===
 
+A guide to setting up a rails app, from zero to deployed, with some common components
+
 A few notes before we begin
 ---
 
