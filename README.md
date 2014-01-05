@@ -29,7 +29,7 @@ Change the README to Markdown:
 
 At this point, all things should be good in the world:
 
-    $ rails s
+    $ rails server
 
 PostgreSQL
 ---
@@ -72,3 +72,26 @@ Run the initial migration to create a schema:
     $ rake db:migrate
 
 That's it for now!
+
+Testing
+---
+
+Let's use RSpec.  First thing, get rid of Test::Unit:
+
+    $ git rm -r test/
+
+And install [rspec-rails](http://github.com/rspec/rspec-rails), [Machinist](http://github.com/notahat/machinist), and [Capybara](http://github.com/jnicklas/capybara):
+
+    # Use RSpec for testing
+    group :development, :test do
+      gem 'rspec-rails'
+      gem 'machinist'
+      gem 'capybara'
+    end
+
+And follow these guides:
+
+- `rspec-rails`: <http://github.com/rspec/rspec-rails#installation>
+- `machinist`: <http://github.com/notahat/machinist#installation>
+  - I recommend using `fixture_replacement`
+- `capybara`: <http://github.com/jnicklas/capybara#setup>
